@@ -1,0 +1,70 @@
+.drive-rectangle {
+    position: relative;
+  }
+  
+  .drive-rectangle img {
+    width: 100%;
+    height: 450px;
+  }
+  
+  .drive-text {
+    position: absolute;
+    top: 50%;
+    left: 10px; 
+    transform: translateY(-50%);
+  }
+  
+  .drive-text img {
+    width: 70%;
+    height: auto;
+    padding: 50px 50px;
+  }
+  .car-picture{
+    height: 477px;
+    width: 533px;
+    
+
+  }
+  @media (max-width: 760px) and (min-width: 300px)
+   {
+    .drive-rectangle {
+      text-align: center;
+      width: 100%; 
+    }
+    .drive-button {
+      margin-top: 20px; 
+    }
+    
+    
+  }
+  
+  .drive-button {
+   position: absolute;
+   bottom: 500px;
+    top: 55%;
+    left: 50px; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transform: translateY(50%);
+    background-color: black;
+    height: 40px;
+    width: 120px;
+    color: white;
+    border-radius: 12px;
+    margin-right: 15px;
+
+  }
+
+  .drive-button button 
+  {
+    margin-right: 15px;
+  }
+  .drive-button:hover{
+    color: black;
+    background-color: white;
+    
+  }
+  .drive-car {
+    width: 45%;
+    height: auto;
+  }
+  

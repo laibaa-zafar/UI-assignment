@@ -1,0 +1,46 @@
+.location-content {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  justify-content: space-around;
+  
+}
+
+.location-image {
+  flex: 1;
+  padding-left: 50px; 
+  display: flex;
+  justify-content: flex-end;
+
+}
+.read-more {
+  background-color: #0fa896; 
+  color: #ffffff; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  border: none; 
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.read-more:hover {
+  background-color: #45a09a; 
+}
+
+
+
+.text-content {
+  flex: 1;
+}
+
+
+
+    @media (max-width: 768px) {
+      .location-content {
+        flex-direction: column;
+      }
+      
+      .text-content {
+        order: 1; 
+      }
+    }
