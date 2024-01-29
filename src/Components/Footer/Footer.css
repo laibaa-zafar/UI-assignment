@@ -6,7 +6,7 @@
   padding: 30px;
   background-color: #323232;
   color: white;
-  width: 99;
+  width: 96.3%;
 }
 
 .rlye-logo,
@@ -32,17 +32,21 @@
 }
 
 .footer-line {
-  width: 100%;
+  width: 98%;
   margin-top: 20px;
+}
+
+.all-copyrights-social {
+  display: flex;
+  justify-content: space-between; /* Updated justify-content */
+  align-items: center;
+  width: 98%;
 }
 
 .all-copyrights-reserved {
   margin-top: 20px;
 }
-.social-icons{
-  height: auto;
-  width: auto;
-}
+
 @media (max-width: 768px) {
   .main-footer {
     flex-direction: column;
@@ -56,19 +60,17 @@
   .footer-remaining {
     flex: 1;
     width: 100%;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
     text-align: center;
-    
   }
 
   .footer-text-container {
-    order: 1; 
+    order: 1;
     padding: 30px;
-    }
-
+  }
 
   .footer-remaining {
-    margin-top: 20px; 
+    margin-top: 20px;
   }
 
   .quick-links,
@@ -77,5 +79,4 @@
     flex: 1;
     margin-right: 0;
   }
-
 }

@@ -27,7 +27,6 @@
 
 .button-container {
   display: flex;
-  gap: 10px;
   margin-bottom: 20px;
 }
 .right-div img{
@@ -72,6 +71,12 @@
   align-items: center;
   font-weight: bold;
   justify-content: center;
+  
+}
+.button-apple{
+  padding-bottom: 10px;
+  gap: 1rem;
+  justify-content: space-around;
 }
 
 
@@ -114,5 +119,9 @@
   }
   .image-container{
     margin-left: 20%;
+  }
+  .button-apple{
+    display: flex;
+    justify-content: center;
   }
 }

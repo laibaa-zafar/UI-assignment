@@ -3,6 +3,7 @@
   align-items: center;
   padding: 50px;
   justify-content: space-around;
+  gap: 6rem;
 }
 
 .location-image {

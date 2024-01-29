@@ -5,79 +5,49 @@
   max-width: 1024px;
   margin: 0 auto;
 }
+
 .lower-content {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
+
 .how-to-book-a-ride img,
-.phone-image img {
+/* .phone-image img {
   max-width: 100%;
   display: flex;
   height: auto;
   margin-bottom: 30px;
   margin-right: 200px;
   justify-content: center;
-}
+} */
+
 .how-to-book-a-ride {
   display: flex;
-  justify-content: space-between;
-  margin-left: 80px;
+  /* justify-content: space-between; */
   justify-content: center;
 }
 
 .one-three {
-  margin-right: 120px;
-  padding-top: 60px;
+  /* margin-left: 20%; */
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  text-align: end;
+  justify-content: flex-start;
 }
-.two-four {
-  margin-left: 20%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-.request-a-trip img {
-  border: 2px solid black;
-  border-radius: 1.5px;
-  border-color: rgb(26, 150, 150);
-  padding: 7px;
-  fill: aqua;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-.enjoy-your-trip img {
-  border: 2px solid black;
-  border-radius: 3px;
-  border-color: black;
+
+.one-three img {
+  border: 2px solid #04D8AC;
+  border-radius: 1px;
   padding: 7px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
-.match-with-a-driver img{
-  border: 2px solid black;
-  border-radius: 3px;
-  border-color: black;
-  padding: 7px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+.request-a-trip .one{
+  background-color: #04D8AC;
 }
-.pay-and-rate img {
-  border: 2px solid black;
-  border-radius: 3px;
-  border-color: black;
-  padding: 7px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
+
 .mobile-image-container {
   position: relative;
   display: flex;
@@ -85,6 +55,7 @@
   justify-content: center;
   margin-left: 120px;
 }
+
 .circle-background {
   position: absolute;
   width: 300px;
@@ -92,35 +63,57 @@
   background-color: #ccc;
   border-radius: 50%;
 }
+
 .mobile-image {
   z-index: 1;
   width: 450%;
 }
 
-.main-div {
-  max-width: 1024px;
-  margin: 0 auto;
-}
-.request-a-trip{
+/* .two-four {
+  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
   justify-content: flex-end;
 }
 
+.two-four img {
+  border: 2px solid black;
+  border-radius: 3px;
+  padding: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+} */
+.two-four{
+  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.two-four img{
+  border: 2px solid #04D8AC;
+  border-radius: 10px;
+  padding: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
 @media screen and (max-width: 1024px) {
-  .main-div{
+  .main-div {
     width: 200%;
   }
+
   .lower-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-  .how-to-book-a-ride img{
+
+  .how-to-book-a-ride img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 100px;
-
   }
 
   .mobile-image-container {
@@ -128,18 +121,16 @@
     justify-content: center;
     align-items: center;
     padding-right: 110px;
-    /* display: none; */
-
   }
 
-  .one-three,
-  .two-four {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    align-items: center;
-    justify-content: center;
-    margin-left: 140px;
-    width: 100%;
-  }
+  @media (min-width: 310px) {
+    .one-three, .two-four {
+        flex-direction: column;
+        /* justify-content: flex-start; */
+        margin-left: 0px;
+    }
+    .one-three img, .two-four img{
+      display: flex;
+    }
+}
 }

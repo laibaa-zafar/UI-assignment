@@ -31,17 +31,21 @@ const AppWorking = () => {
             </div>
           </div>
         </div>
-        {/* <div className="button-apple">
+        <div className="button-apple">
           <button className="download-button">
             Download on apple play store{" "}
           </button>
-        </div>
-        <div className="download-playstore">
+        
+        {/* <div className="download-playstore"> */}
           <button className="download-button">
             Download on the google PlayStore{" "}
-          </button> */}
+          </button>
         </div>
+
       </div>
+      </div>
+
+      // </div>
     
   );
 };

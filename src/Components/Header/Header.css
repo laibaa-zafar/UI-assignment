@@ -110,12 +110,12 @@ nav a {
 
 .button-rlye {
   padding: 10px 15px;
-  background-color: rgb(21, 145, 104);
-  border-color: rgb(0, 255, 213);
-  color: white;
+  background-color: transparent;
+  border: 2px solid #04D8AC;
+  color: #04D8AC;
   border-radius: 10px;
   cursor: pointer;
- 
+
 }
 .Button-rlye{
 padding: 10px 15px;

@@ -8,33 +8,14 @@ const Footer = () => {
         <img src="./Images/rlyelogo.png" alt="" />
         <div className="footer-text-container">
           <p>
-            {" "}
-            Lorem ipsum dolor sit amet consectetur <br />
-            adipisicing elit. Explicabo et,
-            <br />
-            assumenda facere, veritatis cum <br />
-            facilis excepturi, fuga tempora neque
-            <br />
-            nostrum vero inventore corporis saepe
-            <br />
-            unde nam. Ipsam ducimus corporis
-            <br />
-            tempore!{" "}
+            Lorem Ipsum is simply dummy text of the printing <br/>and typesetting
+            industry. Lorem Ipsum has been the <br/> industry's standard dummy text
+            ever since the 1500s, <br/> when an unknown printer took a galley of type
+            and <br/> scrambled it to make a type specimen book.<br/> It has survived not
+            only five centuries, but also<br/> the leap into electronic typesetting,.
           </p>
         </div>
       </div>
-      {/* <div className="footer-text-container">
-        <p>
-          {" "}
-          Lorem ipsum dolor sit amet consectetur <br/>
-           adipisicing elit. Explicabo et,<br/>
-          assumenda facere, veritatis cum <br/>
-          facilis excepturi, fuga tempora neque<br/>
-          nostrum vero inventore corporis saepe 
-          <br/>unde nam. Ipsam ducimus corporis<br/>
-          tempore!{" "}
-        </p>
-      </div> */}
       <div className="footer-remaining">
         <div className="quick-links">
           <h4>Quick Links</h4>
@@ -54,13 +35,18 @@ const Footer = () => {
       </div>
 
       <img className="footer-line" src="./Images/footerline.png" alt="" />
-      <div className="all-copyrights-reserved">All copyrights reserved</div>
-      <div className="social-icons">
-        <img src="./Images/facebook.png" alt="Facebook" />
-        <img src="./Images/twitter.png" alt="Twitter" />
-        <img src="./Images/linkedin.png" alt="Instagram" />
+
+      <div className="all-copyrights-social">
+        <div className="all-copyrights-reserved">All copyrights reserved</div>
+        <div className="social-icons">
+          {/* Move social media icons to the extreme left */}
+          <img src="./Images/facebook.png" alt="Facebook" />
+          <img src="./Images/twitter.png" alt="Twitter" />
+          <img src="./Images/linkedin.png" alt="Instagram" />
+        </div>
       </div>
     </div>
   );
 };
+
 export default Footer;
