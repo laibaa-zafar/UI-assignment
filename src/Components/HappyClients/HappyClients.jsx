@@ -7,7 +7,6 @@ const HappyClients = () => {
         <img src="./Images/happyclients.png" alt="" />
       </div>
       <div className="green-div">
-        {/* <img src="./Images/greenrectangle.png" alt="" /> */}
         <h2>John Smith </h2>
         <p>
           Lorem Ipsum is simply dummy text of the printing and <br />

@@ -8,7 +8,6 @@
   padding: 30px;
   display: flex;
   justify-content: center;
-  
 }
 .happy-clients,
 .green-div,
@@ -54,30 +53,31 @@
   padding-left: 100px;
   gap: 9rem;
   @media (max-width: 1024px) {
-   display: none; 
+    display: none;
   }
 }
 .green-div {
   gap: 9rem;
+  
 }
 .green-div img {
   padding-top: 175px;
+  margin-right: 90px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 390px) {
   .grey-div {
     justify-content: center;
-    width: 100%;
-  }
-  .grey-div {
+    width: 220%;
     align-items: center;
-    justify-content: center;
+
   }
   .green-div {
     order: 1;
+    margin-left: 120px;
   }
   .clients-pictures {
     display: none;
   }
+  
 }
-

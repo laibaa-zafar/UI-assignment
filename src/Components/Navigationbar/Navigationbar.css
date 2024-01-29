@@ -1,0 +1,120 @@
+.navbar-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 4px 19px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 96px;
+   background-color:  #323232;
+  }
+  .about-us1,
+  .contact,
+  .home1,
+  .our-services {
+    position: absolute;
+    top: 37px;
+    left: 30%;
+    font-weight: 500;
+    color: white;
+  }
+  .about-us1,
+  .contact,
+  .our-services {
+    left: 40%;
+  }
+  .about-us1,
+  .contact {
+    left: 60%;
+  }
+  .contact {
+    left: 70%;
+  }
+  .rlye-green-2-icon {
+    position: absolute;
+    top: 21px;
+    left: 50%;
+    width: 95px;
+    height: 49px;
+    object-fit: cover;
+  }
+  .group-child4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-xs);
+    border: 1px solid var(--color-mediumaquamarine-100);
+    box-sizing: border-box;
+    width: 130px;
+    height: 35.92px;
+  }
+  .become-a-ryle {
+    position: absolute;
+    top: 3.13px;
+    left: 90%;
+    line-height: 30px;
+    font-weight: 500;
+    display: inline-block;
+    width: 92.37px;
+    height: 25.66px;
+    width: 130px;
+    height: 35.921px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid #04D8AC;
+    background-color: transparent;
+    color: antiquewhite;
+    left: 150px;
+  }
+  .become-a-ryle:hover {
+    background-color: #04D8AC;
+    color: #ffffff; 
+
+  }
+  
+  .navbar,
+  .rectangle-parent1 {
+    position: absolute;
+    top: 30px;
+    left: 70%;
+    width: 130px;
+    height: 35.92px;
+    font-size: var(--font-size-xs);
+    color: var(--color-mediumaquamarine-100);
+  }
+  .navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 96px;
+    text-align: left;
+    font-size: var(--font-size-mid);
+    color: var(--color-whitesmoke);
+    font-family: var(--font-poppins);
+    width: 100%;
+  }
+  .navbar .open{
+    width: 100%;
+  }
+ @media (max-width: 768px)
+ {
+  /* .menu-opened{
+    display: block;
+  }
+  .h-menu{
+    color: var(--black);
+    position: absolute;
+    top: 3rem;
+    bottom: 4rem;
+    background: white;
+  }
+  .navbar{
+    display: none;
+    
+  } */
+  .nav-bar{
+    flex-direction: column;
+  }
+  
+ }
+
+  

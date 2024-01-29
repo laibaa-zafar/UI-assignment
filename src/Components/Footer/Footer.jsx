@@ -6,25 +6,61 @@ const Footer = () => {
     <div className="main-footer">
       <div className="rlye-logo">
         <img src="./Images/rlyelogo.png" alt="" />
-        <div className="text-container">
-          <p className="and-typesetting-industry">{`Lorem Ipsum is simply dummy text of the printing `}</p>
-          <p className="and-typesetting-industry">{`and typesetting industry. Lorem Ipsum has been the `}</p>
-          <p className="and-typesetting-industry">{`industry's standard dummy text ever since the 1500s, `}</p>
-          <p className="and-typesetting-industry">{`when an unknown printer took a galley of type and `}</p>
-          <p className="and-typesetting-industry">{`scrambled it to make a type specimen book. `}</p>
-          <p className="and-typesetting-industry">{`It has survived not only five centuries, but also `}</p>
-          <p className="and-typesetting-industry">
-            the leap into electronic typesetting
+        <div className="footer-text-container">
+          <p>
+            {" "}
+            Lorem ipsum dolor sit amet consectetur <br />
+            adipisicing elit. Explicabo et,
+            <br />
+            assumenda facere, veritatis cum <br />
+            facilis excepturi, fuga tempora neque
+            <br />
+            nostrum vero inventore corporis saepe
+            <br />
+            unde nam. Ipsam ducimus corporis
+            <br />
+            tempore!{" "}
           </p>
         </div>
-        <img className="footer-line" src="./Images/footerline.png" alt="" />
-        <div className="all-copyrights-reserved">All copyrights reserved</div>
-        <img className="group-icon1" alt="" src="./Images/facebook.png" />
-        <img className="group-icon2" alt="" src="./Images/twitter.png" />
-        <img className="vector-icon12" alt="" src="./Images/linkedin.png" />
+      </div>
+      {/* <div className="footer-text-container">
+        <p>
+          {" "}
+          Lorem ipsum dolor sit amet consectetur <br/>
+           adipisicing elit. Explicabo et,<br/>
+          assumenda facere, veritatis cum <br/>
+          facilis excepturi, fuga tempora neque<br/>
+          nostrum vero inventore corporis saepe 
+          <br/>unde nam. Ipsam ducimus corporis<br/>
+          tempore!{" "}
+        </p>
+      </div> */}
+      <div className="footer-remaining">
+        <div className="quick-links">
+          <h4>Quick Links</h4>
+          <p>home</p>
+          <p>privacy policy </p>
+        </div>
+        <div className="about-us">
+          <h4>About Us</h4>
+          <p>careers </p>
+          <p>jobs </p>
+        </div>
+        <div className="contact-us">
+          <h4>Contact Us</h4>
+          <p>Houston, USA </p>
+          <p>+92334567364 </p>
+        </div>
+      </div>
+
+      <img className="footer-line" src="./Images/footerline.png" alt="" />
+      <div className="all-copyrights-reserved">All copyrights reserved</div>
+      <div className="social-icons">
+        <img src="./Images/facebook.png" alt="Facebook" />
+        <img src="./Images/twitter.png" alt="Twitter" />
+        <img src="./Images/linkedin.png" alt="Instagram" />
       </div>
     </div>
   );
 };
-
 export default Footer;
