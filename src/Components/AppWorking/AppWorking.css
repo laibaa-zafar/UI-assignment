@@ -1,3 +1,5 @@
+/* AppWorking.css */
+
 .App-working-content {
   display: flex;
   flex-wrap: wrap;
@@ -17,7 +19,7 @@
 }
 
 .main-text-container {
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 .text-container {
@@ -29,8 +31,11 @@
   display: flex;
   margin-bottom: 20px;
 }
-.right-div img{
+
+.right-div img {
   height: 350px;
+  width: auto;
+  max-width: 100%;
 }
 
 .button1,
@@ -46,19 +51,12 @@
   font-weight: bold;
   justify-content: center;
 }
+
 .button2 {
   background-color: #04d8ac;
   width: 120px;
   color: white;
 }
-
-.button-apple,
-.download-playstore {
-  margin-top: 20px;
-  display: flex;
-  justify-content: column;
-}
-
 .download-button {
   background-color: rgb(0, 0, 0);
   border-radius: 20px;
@@ -67,16 +65,21 @@
   height: 50px;
   width: 150px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center; 
+  font-weight: bold;
+  justify-content: space-around;
+}
+.button-apple {
+  margin-top: 20px;
+  display: flex;
   align-items: center;
   font-weight: bold;
-  justify-content: center;
-  
+  padding-bottom: 20px;
+  gap: 2rem;
 }
-.button-apple{
-  padding-bottom: 10px;
-  gap: 1rem;
-  justify-content: space-around;
+.button-apple img {
+  height: auto;
 }
 
 
@@ -92,36 +95,30 @@
     text-align: center;
     margin-bottom: 20px;
   }
-  .right-div .button-container{
+
+  .right-div .button-container {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  .right-div h1{
-    justify-content: center;
+
+  .right-div h1 {
     text-align: center;
     align-items: center;
   }
 
   .left-div img {
-    margin: 0 auto; 
-    margin-left: 100px;
-    display: block; 
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
+    display: block;
+    margin: 0 auto;
   }
 
-  .main-text-container {
-    margin-left: 0;
-  }
-  .image-container{
-    margin-left: 20%;
-  }
-  .button-apple{
+  .image-container {
     display: flex;
     justify-content: center;
+  }
+
+  .button-apple {
+    display: none
   }
 }
